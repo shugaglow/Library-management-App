@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    margin: 2rem;
+    background-color: rgb(161, 199, 233);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.layout{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    row-gap: 3rem;
+    /* background-color: aqua;  */
+}
+
+.layout-nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 3rem;
+    /* background-color: blue;  */
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.layout-nav ul{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+    /* background-color: rgb(146, 146, 190); */
+}
+
+
+
+a{
+    text-decoration: none;
+    outline: none;
+    padding: 1rem;
+    background-color: rgb(223, 173, 108);
+    color: #1e1e1e;
+    border-radius: 0.5rem;
+}
+
+a:focus{
+    background-color: beige;
+    padding: 1rem;
+    color: #1e1e1e;
+    border-radius: 0.5rem;
+}
+
+
+li{
+    list-style: none;
+
+}
+
+li:focus{
+    background-color: blanchedalmond;
+}
+
+
+/* add book styling */
+
+.add-book-wrapper{
+    background-color: #fff;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    border-radius: 1rem;
+    border: 1px solid #807f7f;
+}
+
+select{
+    padding: 0.75rem 2rem;
+    outline: none;
+    border: 1px solid #d7d7d7;
+    border-radius: 0.5rem;
+}
+
+select:focus{
+    border: 1px solid #1e1e1e;
+}
+
+.add-books-buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    column-gap: 1rem;
+}
+button{
+    padding: 0.75rem 1rem;
+    outline: none;
+    border: none;
+    background-color: #1e1e1e;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 0.5rem;
+}
+
+button:hover{
+    background-color: #333030;
+}
+
+/* home styling */
+.home-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+    background-color: #d7d7d7;
+    padding: 2rem;
+}
